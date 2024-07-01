@@ -1,12 +1,11 @@
-import csv
+import ipaddress
 import os
-import subprocess
 import platform
+import subprocess
 import time
 
-import requests
 import geoip2.database
-import ipaddress
+import requests
 
 
 class IpExtractor(object):
